@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #ffe00f, #799f0c);
+  font-family: sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+  background: white;
+  padding-top: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.container form {
+  border-bottom: 1px solid #aaa;
+  padding: 10px 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container form input {
+  width: 100%;
+  font-size: 24px;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+}
+.container form button {
+  background: #799f0c;
+  padding: 8px 15px;
+  color: white;
+  font-weight: bold;
+  font-style: 20px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+.container .todos {
+  list-style-type: none;
+}
+.container .todos li {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  font-style: 22px;
+  cursor: pointer;
+}
+.container .todos li span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.container .todos li.completed {
+  color: #aaa;
+}
+.container .todos li.completed span {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */
